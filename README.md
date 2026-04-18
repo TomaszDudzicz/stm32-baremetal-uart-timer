@@ -7,7 +7,8 @@ The program features 3 main functions:
 1. The onboard green LED blinks continuously every 500 ms (1 Hz) using a hardware timer (TIM2).
 2. When the B1 user button is pressed, the system triggers an interrupt, toggles the LED, and instantly sends the character 'X' to the computer via UART.
 3. When a user sends a letter via a serial terminal (e.g., 'A'), the microcontroller receives it and instantly returns the opposite case ('a'). It automatically converts uppercase to lowercase and vice versa.
-<img width="194" height="346" alt="Adobe Express - IMG_5751" src="https://github.com/user-attachments/assets/f3c079dc-6265-4073-a75f-bea3a0348fda" />
+<img width="216" height="384" alt="Adobe Express - IMG_5752" src="https://github.com/user-attachments/assets/6e6259f1-aa32-4681-b8ae-79da2579160d" />
+
 Technologies & Hardware
 * **Microcontroller:** STM32 Nucleo-64 (NUCLEO-L073RZ)
 * **Language:** C (Bare-metal / Register level)
