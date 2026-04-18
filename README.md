@@ -1,7 +1,7 @@
 # stm32-baremetal-uart-timer
 STM32 bare-metal project demonstrating asynchronous UART, EXTI, and hardware timers without HAL or RTOS.
 
-This repository contains my educational project focused on deep hardware-level programming of STM32 microcontrollers. I deliberately abandoned the HAL (Hardware Abstraction Layer) library to program entirely on **bare-metal registers** in Embedded C.
+This repository contains my project focused on deep hardware-level programming of STM32 microcontrollers. I deliberately abandoned the HAL  library to program entirely on **bare-metal registers** in Embedded C.
 
 The program features 3 main functions:
 1. The onboard green LED blinks continuously every 500 ms (1 Hz) using a hardware timer (TIM2).
